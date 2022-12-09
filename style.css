@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --amarelo: #ffca00;
+    --preto:  #333333;
+    --cinza: #555555;
+
+}
+header{
+    background: white;
+    width: 100%;
+}
+header h1{
+    color: var(--cinza);
+    padding: 1.875rem .9375rem ;
+}
+body{
+    background: var(--amarelo);
+}
+main{
+    background: var(--preto);
+    width: 340px;
+    margin: 3.125rem auto;
+}
+main > img{
+    width: 17.5rem;
+    height: 273px;
+    padding: 1.875rem;
+}
+main h1{
+    font-size: 40px;
+    color: white;
+    padding: 0px 1.875rem 0px 1.875rem;
+}
+main h1 strong{
+    font-size: 72px;
+    display: block;
+    color: var(--amarelo);
+}
+main p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+button{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 0px 1.875rem 1.875rem;
+    color: white;
+    background: var(--preto);
+    border: none;
+    border: 1px solid white;
+    padding: .625rem 1.875rem;
+}
+
+@media (min-width: 580px){
+    main{
+        width: 540px;
+    }
+    main img{
+        width: 480px;
+        height: 318px;
+    }
+}
+@media (min-width: 1000px){
+    main{
+        width: 900px;
+        height: 539.76;
+        display: flex;
+    }
+    main img{
+        width: 479.66px;
+        height: 459px;
+    }
+}
